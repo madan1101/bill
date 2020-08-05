@@ -1,3 +1,12 @@
-.main {
-  background-image: url("louis-reed-pwcKF7L4-no-unsplash.jpg")
+body {
+  background-image: url("hans-reniers-lQGJCMY5qcM-unsplash.jpg");
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline-block;
 }
