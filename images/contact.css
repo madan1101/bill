@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+.contact {
+  text-align: center;
+  height: 100%;
+  font-family: Lato;
+  font-weight: lighter;
+  font-size: 20px;
+  line-height: 1.6;
+  color: black;
+  padding-top: 140px;
+  padding-right: 250px;
+  padding-left: 250px;
+  padding-bottom: 500px;
+}
+
+.contact h2 {
+  font-weight: lighter;
+  font-family: 'Lato', sans-serif;;
+  padding-bottom: 20px;
+}
+
+#link-space {
+  letter-spacing: 8px;
+}
+
+.contact-link:hover {
+  text-decoration: none;
+}
