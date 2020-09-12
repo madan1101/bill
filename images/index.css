@@ -144,13 +144,27 @@ h1: hover {
 }
 
 @media(max-width: 992px) {
-  .cards {
+  .card-product {
     grid-template-columns: 1fr 1fr;
   }
+/*  .navbar*/
 }
 
 @media(max-width: 768px) {
-  .cards {
+  .card-product {
     grid-template-columns: 1fr;
   }
 }
+
+@media (min-width: 100px) and (max-width: 992px) {
+  .navbar {
+  width: 75vw;
+    li {
+    font-size: 26px;
+    margin-bottom: 20px;
+    }
+  }
+
+}
+
+
